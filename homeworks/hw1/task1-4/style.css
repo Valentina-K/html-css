@@ -1,0 +1,11 @@
+span {
+    background-color: lightgray;
+    padding: 10px 20px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+span.red {
+    color: red;
+}
