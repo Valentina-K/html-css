@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.card{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #83a3dd;
+    font-size: 28px;
+}
+
+.one{
+    font-family: "Rubik Pixels", system-ui;
+}
+
+.two{
+    font-family: "Sedgwick Ave Display", cursive;
+}
+
+.three{
+    font-family: "Dancing Script", cursive;
+}
+
+.four{
+    font-family: "Fjalla One", sans-serif;
+}
+
+.five{
+    font-family: "Indie Flower", cursive;
+}
