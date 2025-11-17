@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Vend+Sans:ital,wght@0,300;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+section{
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0 80px;
+    margin: 0 auto;
+    font-family: "Vend Sans", sans-serif;
+}
+
+.first{
+    background-color: #10ead6;
+}
+
+.second{
+    background-color: #62e421;
+}
+
+.third{
+    background-color: #e8a5a5;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+
+a{
+    color: black;
+}
+
+p{
+    text-align: center;
+    font-size: 24px;
+}
+
+.arrow{
+    font-size: 60px;
+}
