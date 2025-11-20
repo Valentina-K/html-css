@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: lightblue;
+}
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #1046f1;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.box{
+    width: 100px;
+    height: 100px;
+}
+.box1{
+    animation: spin1 3s infinite linear alternate;
+}
+.box2{
+    border-radius: 50%;
+    background-color: #efeb0c;
+    animation: spin2 2s infinite linear alternate;
+}
+.box21{
+    border-radius: 50%;
+    background-color: #5c0303;
+    animation: spin21 2s infinite linear alternate;
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #095c69;
+    background: linear-gradient(90deg,rgba(101, 210, 243, 1) 0%,rgba(9, 92, 105, 1) 100%);
+    animation: spin3 3s infinite linear;
+}
+.box31{
+    border-radius: 50%;
+    background-color: #eefb32;
+    transform-origin: -180px center;
+    animation: spin3 2s infinite linear;
+}
+
+.home{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.author{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+
+@keyframes spin1 {
+    from {
+        transform: rotate(0deg) scale(0.2);
+        background: #6D0378;
+        background: radial-gradient(circle,rgba(109, 3, 120, 1) 0%, rgba(236, 225, 237, 1) 6%, rgba(109, 3, 120, 1) 100%);
+    }
+    50%{
+        transform: rotate(180deg) scale(0.8);
+        background: #6D0378;
+        background: radial-gradient(circle,rgba(109, 3, 120, 1) 0%, rgba(203, 165, 207, 1) 6%, rgba(109, 3, 120, 1) 100%);
+    }
+    to {
+        transform: rotate(360deg) scale(1.5);
+        background: #6D0378;
+        background: radial-gradient(circle,rgba(109, 3, 120, 1) 0%, rgba(229, 161, 237, 1) 5%, rgba(109, 3, 120, 1) 100%);
+        border-radius: 20%;
+    }
+}
+
+@keyframes spin2 {
+    from {
+        transform: translateX(-20px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(150px);
+    }
+}
+
+@keyframes spin21 {
+    from {
+        transform: translateX(20px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-150px);
+    }
+}
+
+@keyframes spin3 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
