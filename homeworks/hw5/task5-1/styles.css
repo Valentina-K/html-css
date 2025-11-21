@@ -62,17 +62,12 @@
     from {
         transform: rotate(0deg) scale(0.2);
         background: #6D0378;
-        background: radial-gradient(circle,rgba(109, 3, 120, 1) 0%, rgba(236, 225, 237, 1) 6%, rgba(109, 3, 120, 1) 100%);
-    }
-    50%{
-        transform: rotate(180deg) scale(0.8);
-        background: #6D0378;
-        background: radial-gradient(circle,rgba(109, 3, 120, 1) 0%, rgba(203, 165, 207, 1) 6%, rgba(109, 3, 120, 1) 100%);
+        background: radial-gradient(circle,rgba(109, 3, 120, 1) 0%, rgba(224, 223, 236, 1) 100%);
     }
     to {
         transform: rotate(360deg) scale(1.5);
         background: #6D0378;
-        background: radial-gradient(circle,rgba(109, 3, 120, 1) 0%, rgba(229, 161, 237, 1) 5%, rgba(109, 3, 120, 1) 100%);
+        background: radial-gradient(circle,rgba(109, 3, 120, 1) 0%, rgba(224, 223, 236, 1) 100%);
         border-radius: 20%;
     }
 }
