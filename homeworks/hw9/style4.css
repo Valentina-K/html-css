@@ -1,0 +1,67 @@
+/*------------------ page 4 --------------------------*/
+.grid{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 73% 27%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "header header"
+    "top-section right-block"
+    "middle-section right-block"
+    "bottom-section right-block"
+    "footer footer";
+
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+}
+header {
+    position: relative;
+    grid-area: header;
+    background: #8D8484;
+}
+header>.home{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+footer {
+    grid-area: footer;
+    background: #BDBDBD;
+}
+
+header, section, aside, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section>p, aside>p{
+    color: white;
+}
+
+.top-section{
+    background: #776969;
+    grid-area: top-section;
+}
+.middle-section{
+    grid-area: middle-section;
+    background: #643030;
+}
+.bottom-section{
+    grid-area: bottom-section;
+    background: #441818;
+}
+.right-block{
+    grid-area: right-block;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.top-aside {
+    background: #937575;
+}
+
+.bottom-aside {
+    background: #644C4C;
+}

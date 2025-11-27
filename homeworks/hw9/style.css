@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: #e3e643;
+    background: linear-gradient(76deg, rgba(227, 230, 67, 1) 0%, rgba(242, 242, 201, 1) 100%);
+}
+
+.home {
+    text-decoration: none;
+    color: #44650b;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.home-nav {
+    width: 60vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: #061d65;
+}
+
+nav a:hover {
+    background-color: #127cda;
+}
+
+
+
